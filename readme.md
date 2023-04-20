@@ -16,6 +16,7 @@ Gallery item markup
 
 The link to the original image must be stored in the source data attribute on the <img> element and specified in the link's href. Do not add any HTML tags or CSS classes other than those in this template.
 
+```
 <li class="gallery__item">
   <a class="gallery__link" href="large-image.jpg">
     <img
@@ -26,6 +27,7 @@ The link to the original image must be stored in the source data attribute on th
     />
   </a>
 </li>
+```
 
 Please note that the image is wrapped in a link, which means that, when clicked, the user will be redirected to another page by default. Disable this behavior by default.
 
@@ -39,11 +41,13 @@ Create the same gallery as in the first task, but using the SimpleLightbox libra
 
 It is necessary to slightly change the gallery card markup; use this template.
 
+```
 <li class="gallery__item">
    <a class="gallery__link" href="large-image.jpg">
       <img class="gallery__image" src="small-image.jpg" alt="Image description" />
    </a>
 </li>
+```
 
 Do this task in the 02-lightbox.html and 02-lightbox.js files. Break it down into several subtasks:
 
