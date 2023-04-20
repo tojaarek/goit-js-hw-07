@@ -13,4 +13,4 @@ const newImage = galleryItems
 
 imagesList.insertAdjacentHTML('beforeend', newImage);
 
-new SimpleLightbox('.gallery a', { showCounter: false });
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
