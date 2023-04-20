@@ -13,9 +13,4 @@ const newImage = galleryItems
 
 imagesList.insertAdjacentHTML('beforeend', newImage);
 
-imagesList.addEventListener('click', fullImage);
-
-function fullImage(event) {
-  event.preventDefault();
-  const fullSizeImg = new SimpleLightbox('.gallery a', { showCounter: false });
-}
+new SimpleLightbox('.gallery a', { showCounter: false });
