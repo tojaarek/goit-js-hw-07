@@ -1,8 +1,18 @@
 Live preview https://tojaarek.github.io/goit-js-hw-07/
 
+# Acceptance criteria
+1. goit-js-hw-07 repository created.
+2. In your submitted homework, there are two links: to the source files and your working page on GitHub Pages.
+3. During live page visits, there are no errors or warnings generated in the console.
+4. Clear and descriptive names of variables and functions.
+5. Code formatted with Prettier.
+6. Download the startup files with the ready layout and attached script files for each task. Copy them into your project.
+
+<b>In the gallery-items.js file, there is an array called galleryItems, which contains objects with information about images: small (preview), original (large) and description. It has already been added to each of the project's JS files.</b>
+
 # Task 1 - Image gallery
 
-Create a gallery with the ability to click on its items and view full size images in a modal window.
+Create a gallery with the ability to click on its items and view full size images in a modal window. Check out the demo video of the gallery.
 
 Do this task in the 01-gallery.html and 01-gallery.js files. Break it down into several subtasks:
 
@@ -12,7 +22,7 @@ Do this task in the 01-gallery.html and 01-gallery.js files. Break it down into 
 4. Opening a modal window by clicking on a gallery item. To do this, check out the documentation and examples.
 5. Replacing the value of the src attribute of the <img> element in a modal window before opening. Use the ready-made modal window markup with the image from the examples of the basicLightbox library.
 
-Gallery item markup
+<b>Gallery item markup</b>
 
 The link to the original image must be stored in the source data attribute on the <img> element and specified in the link's href. Do not add any HTML tags or CSS classes other than those in this template.
 
@@ -31,7 +41,7 @@ The link to the original image must be stored in the source data attribute on th
 
 Please note that the image is wrapped in a link, which means that, when clicked, the user will be redirected to another page by default. Disable this behavior by default.
 
-Closing from keyboard
+<b>Closing from keyboard</b>
 
 Add modal window closing upon pressing the Escape key. Make keyboard listening available only while the modal window is open. In the basicLightbox library, there is a method to close the modal window programmatically.
 
